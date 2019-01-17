@@ -1,5 +1,7 @@
 # the build
-build
+
+/build
+
 DerivedData
 Docs/API
 
