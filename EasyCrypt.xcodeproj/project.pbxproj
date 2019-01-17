@@ -46,6 +46,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		3722F4A721F0E6340014A836 /* EasyCrypt+Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4A621F0E6340014A836 /* EasyCrypt+Algorithm.swift */; };
+		3722F4A821F0E6340014A836 /* EasyCrypt+Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4A621F0E6340014A836 /* EasyCrypt+Algorithm.swift */; };
+		3722F4A921F0E6340014A836 /* EasyCrypt+Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4A621F0E6340014A836 /* EasyCrypt+Algorithm.swift */; };
+		3722F4AB21F0E6570014A836 /* String+BytesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4AA21F0E6570014A836 /* String+BytesArray.swift */; };
+		3722F4AC21F0E6570014A836 /* String+BytesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4AA21F0E6570014A836 /* String+BytesArray.swift */; };
+		3722F4AD21F0E6570014A836 /* String+BytesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4AA21F0E6570014A836 /* String+BytesArray.swift */; };
+		3722F4AF21F0E6690014A836 /* Data+BytesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4AE21F0E6690014A836 /* Data+BytesArray.swift */; };
+		3722F4B021F0E6690014A836 /* Data+BytesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4AE21F0E6690014A836 /* Data+BytesArray.swift */; };
+		3722F4B121F0E6690014A836 /* Data+BytesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722F4AE21F0E6690014A836 /* Data+BytesArray.swift */; };
 		37FE19DC21F0C78200B76A3D /* EasyCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE19D221F0C78100B76A3D /* EasyCrypt.framework */; };
 		37FE19E121F0C78200B76A3D /* EasyCrypt_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE19E021F0C78200B76A3D /* EasyCrypt_iOSTests.swift */; };
 		37FE19E321F0C78200B76A3D /* EasyCrypt_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FE19D521F0C78100B76A3D /* EasyCrypt_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,6 +94,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3722F4A621F0E6340014A836 /* EasyCrypt+Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EasyCrypt+Algorithm.swift"; sourceTree = "<group>"; };
+		3722F4AA21F0E6570014A836 /* String+BytesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BytesArray.swift"; sourceTree = "<group>"; };
+		3722F4AE21F0E6690014A836 /* Data+BytesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+BytesArray.swift"; sourceTree = "<group>"; };
 		37FE19D221F0C78100B76A3D /* EasyCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FE19D521F0C78100B76A3D /* EasyCrypt_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCrypt_iOS.h; sourceTree = "<group>"; };
 		37FE19D621F0C78100B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -240,6 +252,9 @@
 			isa = PBXGroup;
 			children = (
 				37FE1A2321F0C9CA00B76A3D /* EasyCrypt.swift */,
+				3722F4A621F0E6340014A836 /* EasyCrypt+Algorithm.swift */,
+				3722F4AA21F0E6570014A836 /* String+BytesArray.swift */,
+				3722F4AE21F0E6690014A836 /* Data+BytesArray.swift */,
 			);
 			path = SharedCode;
 			sourceTree = "<group>";
@@ -609,7 +624,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3722F4A721F0E6340014A836 /* EasyCrypt+Algorithm.swift in Sources */,
+				3722F4AB21F0E6570014A836 /* String+BytesArray.swift in Sources */,
 				37FE1A2421F0C9CA00B76A3D /* EasyCrypt.swift in Sources */,
+				3722F4AF21F0E6690014A836 /* Data+BytesArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +643,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3722F4A821F0E6340014A836 /* EasyCrypt+Algorithm.swift in Sources */,
+				3722F4AC21F0E6570014A836 /* String+BytesArray.swift in Sources */,
 				37FE1A2521F0C9CA00B76A3D /* EasyCrypt.swift in Sources */,
+				3722F4B021F0E6690014A836 /* Data+BytesArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +662,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3722F4A921F0E6340014A836 /* EasyCrypt+Algorithm.swift in Sources */,
+				3722F4AD21F0E6570014A836 /* String+BytesArray.swift in Sources */,
 				37FE1A2621F0C9CA00B76A3D /* EasyCrypt.swift in Sources */,
+				3722F4B121F0E6690014A836 /* Data+BytesArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
