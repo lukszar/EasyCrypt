@@ -1,0 +1,1737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		37FE1A2721F0CC6200B76A3D /* Package iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 37FE1A2821F0CC6200B76A3D /* Build configuration list for PBXAggregateTarget "Package iOS" */;
+			buildPhases = (
+				37FE1A2B21F0CC8D00B76A3D /* Make Universal Library */,
+				37FE1A2C21F0CDB900B76A3D /* Build API documentation */,
+			);
+			dependencies = (
+			);
+			name = "Package iOS";
+			productName = "Package iOS";
+		};
+		37FE1A2D21F0CDF700B76A3D /* Package tvOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 37FE1A2E21F0CDF700B76A3D /* Build configuration list for PBXAggregateTarget "Package tvOS" */;
+			buildPhases = (
+				37FE1A3121F0CE0600B76A3D /* Make Universal Library */,
+				37FE1A3221F0CE4C00B76A3D /* Build API documentation */,
+			);
+			dependencies = (
+			);
+			name = "Package tvOS";
+			productName = "Package tvOS";
+		};
+		37FE1A3321F0CE7F00B76A3D /* Package macOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 37FE1A3421F0CE7F00B76A3D /* Build configuration list for PBXAggregateTarget "Package macOS" */;
+			buildPhases = (
+				37FE1A3721F0CEBC00B76A3D /* Make Universal Library */,
+				37FE1A3821F0CEF500B76A3D /* Build API documentation */,
+			);
+			dependencies = (
+			);
+			name = "Package macOS";
+			productName = "Package macOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		37FE19DC21F0C78200B76A3D /* EasyCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE19D221F0C78100B76A3D /* EasyCrypt.framework */; };
+		37FE19E121F0C78200B76A3D /* EasyCrypt_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE19E021F0C78200B76A3D /* EasyCrypt_iOSTests.swift */; };
+		37FE19E321F0C78200B76A3D /* EasyCrypt_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FE19D521F0C78100B76A3D /* EasyCrypt_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FE19F821F0C85200B76A3D /* EasyCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE19EF21F0C85200B76A3D /* EasyCrypt.framework */; };
+		37FE19FD21F0C85200B76A3D /* EasyCrypt_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE19FC21F0C85200B76A3D /* EasyCrypt_tvOSTests.swift */; };
+		37FE19FF21F0C85200B76A3D /* EasyCrypt_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FE19F121F0C85200B76A3D /* EasyCrypt_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FE1A1421F0C8B900B76A3D /* EasyCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FE1A0B21F0C8B900B76A3D /* EasyCrypt.framework */; };
+		37FE1A1921F0C8B900B76A3D /* EasyCrypt_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1A1821F0C8B900B76A3D /* EasyCrypt_macOSTests.swift */; };
+		37FE1A1B21F0C8B900B76A3D /* EasyCrypt_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FE1A0D21F0C8B900B76A3D /* EasyCrypt_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FE1A2421F0C9CA00B76A3D /* EasyCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1A2321F0C9CA00B76A3D /* EasyCrypt.swift */; };
+		37FE1A2521F0C9CA00B76A3D /* EasyCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1A2321F0C9CA00B76A3D /* EasyCrypt.swift */; };
+		37FE1A2621F0C9CA00B76A3D /* EasyCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE1A2321F0C9CA00B76A3D /* EasyCrypt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FE19DD21F0C78200B76A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FE19C721F0C73700B76A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FE19D121F0C78100B76A3D;
+			remoteInfo = "EasyCrypt iOS";
+		};
+		37FE19F921F0C85200B76A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FE19C721F0C73700B76A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FE19EE21F0C85200B76A3D;
+			remoteInfo = "EasyCrypt tvOS";
+		};
+		37FE1A1521F0C8B900B76A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FE19C721F0C73700B76A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FE1A0A21F0C8B900B76A3D;
+			remoteInfo = "EasyCrypt macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37FE19D221F0C78100B76A3D /* EasyCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE19D521F0C78100B76A3D /* EasyCrypt_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCrypt_iOS.h; sourceTree = "<group>"; };
+		37FE19D621F0C78100B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FE19DB21F0C78200B76A3D /* EasyCrypt iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCrypt iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE19E021F0C78200B76A3D /* EasyCrypt_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCrypt_iOSTests.swift; sourceTree = "<group>"; };
+		37FE19E221F0C78200B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FE19EF21F0C85200B76A3D /* EasyCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE19F121F0C85200B76A3D /* EasyCrypt_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCrypt_tvOS.h; sourceTree = "<group>"; };
+		37FE19F221F0C85200B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FE19F721F0C85200B76A3D /* EasyCrypt tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCrypt tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE19FC21F0C85200B76A3D /* EasyCrypt_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCrypt_tvOSTests.swift; sourceTree = "<group>"; };
+		37FE19FE21F0C85200B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FE1A0B21F0C8B900B76A3D /* EasyCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE1A0D21F0C8B900B76A3D /* EasyCrypt_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCrypt_macOS.h; sourceTree = "<group>"; };
+		37FE1A0E21F0C8B900B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FE1A1321F0C8B900B76A3D /* EasyCrypt macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCrypt macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FE1A1821F0C8B900B76A3D /* EasyCrypt_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCrypt_macOSTests.swift; sourceTree = "<group>"; };
+		37FE1A1A21F0C8B900B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FE1A2321F0C9CA00B76A3D /* EasyCrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCrypt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FE19CF21F0C78100B76A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19D821F0C78200B76A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE19DC21F0C78200B76A3D /* EasyCrypt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19EC21F0C85200B76A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19F421F0C85200B76A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE19F821F0C85200B76A3D /* EasyCrypt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A0821F0C8B900B76A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A1021F0C8B900B76A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1A1421F0C8B900B76A3D /* EasyCrypt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37FE19C621F0C73700B76A3D = {
+			isa = PBXGroup;
+			children = (
+				37FE1A2221F0C9AB00B76A3D /* SharedCode */,
+				37FE19D421F0C78100B76A3D /* EasyCrypt iOS */,
+				37FE19F021F0C85200B76A3D /* EasyCrypt tvOS */,
+				37FE1A0C21F0C8B900B76A3D /* EasyCrypt macOS */,
+				37FE19DF21F0C78200B76A3D /* EasyCrypt iOSTests */,
+				37FE19FB21F0C85200B76A3D /* EasyCrypt tvOSTests */,
+				37FE1A1721F0C8B900B76A3D /* EasyCrypt macOSTests */,
+				37FE19D321F0C78100B76A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37FE19D321F0C78100B76A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FE19D221F0C78100B76A3D /* EasyCrypt.framework */,
+				37FE19DB21F0C78200B76A3D /* EasyCrypt iOSTests.xctest */,
+				37FE19EF21F0C85200B76A3D /* EasyCrypt.framework */,
+				37FE19F721F0C85200B76A3D /* EasyCrypt tvOSTests.xctest */,
+				37FE1A0B21F0C8B900B76A3D /* EasyCrypt.framework */,
+				37FE1A1321F0C8B900B76A3D /* EasyCrypt macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FE19D421F0C78100B76A3D /* EasyCrypt iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37FE19D521F0C78100B76A3D /* EasyCrypt_iOS.h */,
+				37FE19D621F0C78100B76A3D /* Info.plist */,
+			);
+			path = "EasyCrypt iOS";
+			sourceTree = "<group>";
+		};
+		37FE19DF21F0C78200B76A3D /* EasyCrypt iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FE19E021F0C78200B76A3D /* EasyCrypt_iOSTests.swift */,
+				37FE19E221F0C78200B76A3D /* Info.plist */,
+			);
+			path = "EasyCrypt iOSTests";
+			sourceTree = "<group>";
+		};
+		37FE19F021F0C85200B76A3D /* EasyCrypt tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				37FE19F121F0C85200B76A3D /* EasyCrypt_tvOS.h */,
+				37FE19F221F0C85200B76A3D /* Info.plist */,
+			);
+			path = "EasyCrypt tvOS";
+			sourceTree = "<group>";
+		};
+		37FE19FB21F0C85200B76A3D /* EasyCrypt tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FE19FC21F0C85200B76A3D /* EasyCrypt_tvOSTests.swift */,
+				37FE19FE21F0C85200B76A3D /* Info.plist */,
+			);
+			path = "EasyCrypt tvOSTests";
+			sourceTree = "<group>";
+		};
+		37FE1A0C21F0C8B900B76A3D /* EasyCrypt macOS */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1A0D21F0C8B900B76A3D /* EasyCrypt_macOS.h */,
+				37FE1A0E21F0C8B900B76A3D /* Info.plist */,
+			);
+			path = "EasyCrypt macOS";
+			sourceTree = "<group>";
+		};
+		37FE1A1721F0C8B900B76A3D /* EasyCrypt macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1A1821F0C8B900B76A3D /* EasyCrypt_macOSTests.swift */,
+				37FE1A1A21F0C8B900B76A3D /* Info.plist */,
+			);
+			path = "EasyCrypt macOSTests";
+			sourceTree = "<group>";
+		};
+		37FE1A2221F0C9AB00B76A3D /* SharedCode */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1A2321F0C9CA00B76A3D /* EasyCrypt.swift */,
+			);
+			path = SharedCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37FE19CD21F0C78100B76A3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE19E321F0C78200B76A3D /* EasyCrypt_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19EA21F0C85200B76A3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE19FF21F0C85200B76A3D /* EasyCrypt_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A0621F0C8B900B76A3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1A1B21F0C8B900B76A3D /* EasyCrypt_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37FE19D121F0C78100B76A3D /* EasyCrypt iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE19E421F0C78200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt iOS" */;
+			buildPhases = (
+				37FE19CD21F0C78100B76A3D /* Headers */,
+				37FE19CE21F0C78100B76A3D /* Sources */,
+				37FE19CF21F0C78100B76A3D /* Frameworks */,
+				37FE19D021F0C78100B76A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyCrypt iOS";
+			productName = "EasyCrypt iOS";
+			productReference = 37FE19D221F0C78100B76A3D /* EasyCrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37FE19DA21F0C78200B76A3D /* EasyCrypt iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE19E721F0C78200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt iOSTests" */;
+			buildPhases = (
+				37FE19D721F0C78200B76A3D /* Sources */,
+				37FE19D821F0C78200B76A3D /* Frameworks */,
+				37FE19D921F0C78200B76A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FE19DE21F0C78200B76A3D /* PBXTargetDependency */,
+			);
+			name = "EasyCrypt iOSTests";
+			productName = "EasyCrypt iOSTests";
+			productReference = 37FE19DB21F0C78200B76A3D /* EasyCrypt iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37FE19EE21F0C85200B76A3D /* EasyCrypt tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE1A0021F0C85200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt tvOS" */;
+			buildPhases = (
+				37FE19EA21F0C85200B76A3D /* Headers */,
+				37FE19EB21F0C85200B76A3D /* Sources */,
+				37FE19EC21F0C85200B76A3D /* Frameworks */,
+				37FE19ED21F0C85200B76A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyCrypt tvOS";
+			productName = "EasyCrypt tvOS";
+			productReference = 37FE19EF21F0C85200B76A3D /* EasyCrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37FE19F621F0C85200B76A3D /* EasyCrypt tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE1A0321F0C85200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt tvOSTests" */;
+			buildPhases = (
+				37FE19F321F0C85200B76A3D /* Sources */,
+				37FE19F421F0C85200B76A3D /* Frameworks */,
+				37FE19F521F0C85200B76A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FE19FA21F0C85200B76A3D /* PBXTargetDependency */,
+			);
+			name = "EasyCrypt tvOSTests";
+			productName = "EasyCrypt tvOSTests";
+			productReference = 37FE19F721F0C85200B76A3D /* EasyCrypt tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37FE1A0A21F0C8B900B76A3D /* EasyCrypt macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE1A1C21F0C8B900B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt macOS" */;
+			buildPhases = (
+				37FE1A0621F0C8B900B76A3D /* Headers */,
+				37FE1A0721F0C8B900B76A3D /* Sources */,
+				37FE1A0821F0C8B900B76A3D /* Frameworks */,
+				37FE1A0921F0C8B900B76A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyCrypt macOS";
+			productName = "EasyCrypt macOS";
+			productReference = 37FE1A0B21F0C8B900B76A3D /* EasyCrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37FE1A1221F0C8B900B76A3D /* EasyCrypt macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FE1A1F21F0C8B900B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt macOSTests" */;
+			buildPhases = (
+				37FE1A0F21F0C8B900B76A3D /* Sources */,
+				37FE1A1021F0C8B900B76A3D /* Frameworks */,
+				37FE1A1121F0C8B900B76A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FE1A1621F0C8B900B76A3D /* PBXTargetDependency */,
+			);
+			name = "EasyCrypt macOSTests";
+			productName = "EasyCrypt macOSTests";
+			productReference = 37FE1A1321F0C8B900B76A3D /* EasyCrypt macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FE19C721F0C73700B76A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					37FE19D121F0C78100B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					37FE19DA21F0C78200B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37FE19EE21F0C85200B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					37FE19F621F0C85200B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37FE1A0A21F0C8B900B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					37FE1A1221F0C8B900B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37FE1A2721F0CC6200B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37FE1A2D21F0CDF700B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37FE1A3321F0CE7F00B76A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 37FE19CA21F0C73700B76A3D /* Build configuration list for PBXProject "EasyCrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37FE19C621F0C73700B76A3D;
+			productRefGroup = 37FE19D321F0C78100B76A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FE19D121F0C78100B76A3D /* EasyCrypt iOS */,
+				37FE19DA21F0C78200B76A3D /* EasyCrypt iOSTests */,
+				37FE19EE21F0C85200B76A3D /* EasyCrypt tvOS */,
+				37FE19F621F0C85200B76A3D /* EasyCrypt tvOSTests */,
+				37FE1A0A21F0C8B900B76A3D /* EasyCrypt macOS */,
+				37FE1A1221F0C8B900B76A3D /* EasyCrypt macOSTests */,
+				37FE1A2721F0CC6200B76A3D /* Package iOS */,
+				37FE1A2D21F0CDF700B76A3D /* Package tvOS */,
+				37FE1A3321F0CE7F00B76A3D /* Package macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FE19D021F0C78100B76A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19D921F0C78200B76A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19ED21F0C85200B76A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19F521F0C85200B76A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A0921F0C8B900B76A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A1121F0C8B900B76A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37FE1A2B21F0CC8D00B76A3D /* Make Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Make Universal Library";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Step 1: Define Macros\nRELEASE_TYPE=\"\"\nFRAMEWORK_VERSION=\"NOTRIAL_VERSION\"\n\n# Step 2: Define OS and directories\nUNIVERSAL_TARGET=\"iOS\"\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal-${UNIVERSAL_TARGET}\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# Step 3: Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 4: Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" VALID_ARCHS=\"x86_64 i386\" -configuration ${CONFIGURATION} -sdk ${DEVICE_SIMULATOR} ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\n\n# Step 5: Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 6: Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 7: Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 8: Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 9: Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 10: Testing\n# open \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
+		};
+		37FE1A2C21F0CDB900B76A3D /* Build API documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build API documentation";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define macros\nAPI_TARGET=\"iOS\"\nAPI_OUTPUT=\"${PROJECT_DIR}/API/${API_TARGET}\"\nDEVICE_OS=\"iphoneos\"\nROOT_URL=\"http://appracatappra.com/api/actionutilities/ios/\"\n\n# Make sure the output directory exists\nmkdir -p \"${API_OUTPUT}\"\n\n# Move to project directory\ncd \"${PROJECT_DIR}\"\n\n# Create documentation with Jazzy\njazzy --output \"${API_OUTPUT}\" --sdk ${DEVICE_OS} --clean --xcodebuild-arguments -target,\"${PROJECT_NAME} ${API_TARGET}\" --module ${PROJECT_NAME} --author \"Appracatappra, LLC\" --root-url \"${ROOT_URL}\"\n\n# Open project directory\n# open \"${API_OUTPUT}\"\n";
+		};
+		37FE1A3121F0CE0600B76A3D /* Make Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Make Universal Library";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define Macros\nRELEASE_TYPE=\"\"\nFRAMEWORK_VERSION=\"NOTRIAL_VERSION\"\n\nUNIVERSAL_TARGET=\"tvOS\"\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal-${UNIVERSAL_TARGET}\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\nDEVICE_OS=\"appletvos\"\nDEVICE_SIMULATOR=\"appletvsimulator\"\n\n# Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" VALID_ARCHS=\"x86_64 i386\" -configuration ${CONFIGURATION} -sdk ${DEVICE_SIMULATOR} ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 6. Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# KKM - Testing\n# open \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
+		};
+		37FE1A3221F0CE4C00B76A3D /* Build API documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build API documentation";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define macros\nAPI_TARGET=\"tvOS\"\nAPI_OUTPUT=\"${PROJECT_DIR}/API/${API_TARGET}\"\nDEVICE_OS=\"appletvos\"\nROOT_URL=\"http://appracatappra.com/api/actiondata/tvos/\"\n\n# Make sure the output directory exists\nmkdir -p \"${API_OUTPUT}\"\n\n# Move to project directory\ncd \"${PROJECT_DIR}\"\n\n# Create documentation with Jazzy\njazzy --output \"${API_OUTPUT}\" --sdk ${DEVICE_OS} --clean --xcodebuild-arguments -target,\"${PROJECT_NAME} ${API_TARGET}\" --module ${PROJECT_NAME} --author \"Appracatappra, LLC\" --root-url \"${ROOT_URL}\"\n\n# Open project directory\n# open \"${API_OUTPUT}\"\n";
+		};
+		37FE1A3721F0CEBC00B76A3D /* Make Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Make Universal Library";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define Macros\nRELEASE_TYPE=\"\"\nFRAMEWORK_VERSION=\"NOTRIAL_VERSION\"\n\nUNIVERSAL_TARGET=\"macOS\"\nDEVICE_OS=\"macosx\"\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\n\n# Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\n\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 3. Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n";
+		};
+		37FE1A3821F0CEF500B76A3D /* Build API documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build API documentation";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define macros\nAPI_TARGET=\"macOS\"\nAPI_OUTPUT=\"${PROJECT_DIR}/API/${API_TARGET}\"\nDEVICE_OS=\"macosx\"\nROOT_URL=\"http://appracatappra.com/api/actiondata/macos/\"\n\n# Make sure the output directory exists\nmkdir -p \"${API_OUTPUT}\"\n\n# Move to project directory\ncd \"${PROJECT_DIR}\"\n\n# Create documentation with Jazzy\njazzy --output \"${API_OUTPUT}\" --sdk ${DEVICE_OS} --clean --xcodebuild-arguments -target,\"${PROJECT_NAME} ${API_TARGET}\" --module ${PROJECT_NAME} --author \"Appracatappra, LLC\" --root-url \"${ROOT_URL}\"\n\n# Open project directory\n# open \"${API_OUTPUT}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FE19CE21F0C78100B76A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1A2421F0C9CA00B76A3D /* EasyCrypt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19D721F0C78200B76A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE19E121F0C78200B76A3D /* EasyCrypt_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19EB21F0C85200B76A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1A2521F0C9CA00B76A3D /* EasyCrypt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE19F321F0C85200B76A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE19FD21F0C85200B76A3D /* EasyCrypt_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A0721F0C8B900B76A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1A2621F0C9CA00B76A3D /* EasyCrypt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FE1A0F21F0C8B900B76A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE1A1921F0C8B900B76A3D /* EasyCrypt_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FE19DE21F0C78200B76A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FE19D121F0C78100B76A3D /* EasyCrypt iOS */;
+			targetProxy = 37FE19DD21F0C78200B76A3D /* PBXContainerItemProxy */;
+		};
+		37FE19FA21F0C85200B76A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FE19EE21F0C85200B76A3D /* EasyCrypt tvOS */;
+			targetProxy = 37FE19F921F0C85200B76A3D /* PBXContainerItemProxy */;
+		};
+		37FE1A1621F0C8B900B76A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FE1A0A21F0C8B900B76A3D /* EasyCrypt macOS */;
+			targetProxy = 37FE1A1521F0C8B900B76A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37FE19CB21F0C73700B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		37FE19CC21F0C73700B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		37FE19E521F0C78200B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = info.szarkowicz.EasyCrypt;
+				PRODUCT_NAME = "${PROJECT_NAME}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37FE19E621F0C78200B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = info.szarkowicz.EasyCrypt;
+				PRODUCT_NAME = "${PROJECT_NAME}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37FE19E821F0C78200B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.szarkowicz.EasyCrypt-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37FE19E921F0C78200B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.szarkowicz.EasyCrypt-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FE1A0121F0C85200B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = info.szarkowicz.EasyCrypt;
+				PRODUCT_NAME = "${PROJECT_NAME}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37FE1A0221F0C85200B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = info.szarkowicz.EasyCrypt;
+				PRODUCT_NAME = "${PROJECT_NAME}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37FE1A0421F0C85200B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.szarkowicz.EasyCrypt-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		37FE1A0521F0C85200B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.szarkowicz.EasyCrypt-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FE1A1D21F0C8B900B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = info.szarkowicz.EasyCrypt;
+				PRODUCT_NAME = "${PROJECT_NAME}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37FE1A1E21F0C8B900B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = info.szarkowicz.EasyCrypt;
+				PRODUCT_NAME = "${PROJECT_NAME}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37FE1A2021F0C8B900B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.szarkowicz.EasyCrypt-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		37FE1A2121F0C8B900B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EasyCrypt macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.szarkowicz.EasyCrypt-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		37FE1A2921F0CC6200B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37FE1A2A21F0CC6200B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37FE1A2F21F0CDF700B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37FE1A3021F0CDF700B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37FE1A3521F0CE7F00B76A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37FE1A3621F0CE7F00B76A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARPPQ7YPQB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FE19CA21F0C73700B76A3D /* Build configuration list for PBXProject "EasyCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE19CB21F0C73700B76A3D /* Debug */,
+				37FE19CC21F0C73700B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE19E421F0C78200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE19E521F0C78200B76A3D /* Debug */,
+				37FE19E621F0C78200B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE19E721F0C78200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE19E821F0C78200B76A3D /* Debug */,
+				37FE19E921F0C78200B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A0021F0C85200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A0121F0C85200B76A3D /* Debug */,
+				37FE1A0221F0C85200B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A0321F0C85200B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A0421F0C85200B76A3D /* Debug */,
+				37FE1A0521F0C85200B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A1C21F0C8B900B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A1D21F0C8B900B76A3D /* Debug */,
+				37FE1A1E21F0C8B900B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A1F21F0C8B900B76A3D /* Build configuration list for PBXNativeTarget "EasyCrypt macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A2021F0C8B900B76A3D /* Debug */,
+				37FE1A2121F0C8B900B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A2821F0CC6200B76A3D /* Build configuration list for PBXAggregateTarget "Package iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A2921F0CC6200B76A3D /* Debug */,
+				37FE1A2A21F0CC6200B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A2E21F0CDF700B76A3D /* Build configuration list for PBXAggregateTarget "Package tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A2F21F0CDF700B76A3D /* Debug */,
+				37FE1A3021F0CDF700B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FE1A3421F0CE7F00B76A3D /* Build configuration list for PBXAggregateTarget "Package macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FE1A3521F0CE7F00B76A3D /* Debug */,
+				37FE1A3621F0CE7F00B76A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FE19C721F0C73700B76A3D /* Project object */;
+}
