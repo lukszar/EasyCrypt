@@ -73,6 +73,7 @@
 		3722F4A621F0E6340014A836 /* EasyCrypt+Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EasyCrypt+Algorithm.swift"; sourceTree = "<group>"; };
 		3722F4AA21F0E6570014A836 /* String+BytesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BytesArray.swift"; sourceTree = "<group>"; };
 		3722F4AE21F0E6690014A836 /* Data+BytesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+BytesArray.swift"; sourceTree = "<group>"; };
+		372C972621F22F3B00F2BD6A /* EasyCryptDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EasyCryptDemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		37FE19D221F0C78100B76A3D /* EasyCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FE19D521F0C78100B76A3D /* EasyCrypt_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCrypt_iOS.h; sourceTree = "<group>"; };
 		37FE19D621F0C78100B76A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 		37FE19C621F0C73700B76A3D = {
 			isa = PBXGroup;
 			children = (
+				372C972621F22F3B00F2BD6A /* EasyCryptDemo.playground */,
 				37FE1A2221F0C9AB00B76A3D /* SharedCode */,
 				37FE19D421F0C78100B76A3D /* EasyCrypt iOS */,
 				37FE19F021F0C85200B76A3D /* EasyCrypt tvOS */,
