@@ -8,18 +8,30 @@
 import Foundation
 import CommonCrypto
 
+/**
+ Main class of EasyCrypt framework for HMAC encryption.
+*/
 public class EasyCrypt {
     fileprivate let secretKey: [UInt8]
     fileprivate let algorithm: EasyCrypt.Algorithm
 
+    /**
+     Use initializer of EasyCrypt instance to create encryptor.
+
+     ### Usage Example: ###
+     ````
+     let crypt = EasyCrypt(secret: "myKey", algorithm: .md5)
+     ````
+
+     - Parameter secret: secret key used to encrypt message
+     - Parameter algorithm: algorithm used to message encryption
+     */
     public init(secret: String = "", algorithm: EasyCrypt.Algorithm) {
         self.secretKey = secret.bytesArray()
         self.algorithm = algorithm
     }
 
     private func convert(_ text: String) -> [UInt8] {
-        //        update(text.bytesArray())
-
         let textBytes: [UInt8] = text.bytesArray()
         let data = NSMutableData()
         data.append(textBytes, length: textBytes.count)
@@ -30,6 +42,12 @@ public class EasyCrypt {
         return hmac
     }
 
+    /**
+     Method creates output encrypted string
+
+     - Parameter text: message to encrypt
+     - Returns: Base64 string of encrypted message
+     */
     public func hash(_ text: String) -> String {
 
         let result = convert(text)

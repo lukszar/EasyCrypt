@@ -1,94 +1,45 @@
 {
   "warnings": [
     {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/Data+BytesArray.swift",
-      "line": 12,
-      "symbol": "Data.bytesArray()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 12,
-      "symbol": "EasyCrypt.Algorithm",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 13,
+      "line": 17,
       "symbol": "EasyCrypt.Algorithm.md5",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 13,
+      "line": 17,
       "symbol": "EasyCrypt.Algorithm.sha1",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 13,
+      "line": 17,
       "symbol": "EasyCrypt.Algorithm.sha224",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 13,
+      "line": 17,
       "symbol": "EasyCrypt.Algorithm.sha256",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 13,
+      "line": 17,
       "symbol": "EasyCrypt.Algorithm.sha384",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift",
-      "line": 13,
+      "line": 17,
       "symbol": "EasyCrypt.Algorithm.sha512",
       "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt.swift",
-      "line": null,
-      "symbol": "EasyCrypt",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt.swift",
-      "line": 11,
-      "symbol": "EasyCrypt",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt.swift",
-      "line": 15,
-      "symbol": "EasyCrypt.init(secret:algorithm:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt.swift",
-      "line": 33,
-      "symbol": "EasyCrypt.hash(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/String+BytesArray.swift",
-      "line": 11,
-      "symbol": "String.bytesArray()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],

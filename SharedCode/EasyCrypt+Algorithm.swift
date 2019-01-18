@@ -9,11 +9,16 @@ import Foundation
 import CommonCrypto
 
 public extension EasyCrypt {
+
+    /**
+     Enum types of algorithms you can choose during encryption.
+     */
     public enum Algorithm {
         case md5, sha1, sha224, sha256, sha384, sha512
 
         var digestLength: Int32 {
             switch self {
+
             case .md5:
                 return CC_MD5_DIGEST_LENGTH
             case .sha1:

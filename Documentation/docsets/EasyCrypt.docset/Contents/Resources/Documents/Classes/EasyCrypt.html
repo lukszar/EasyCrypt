@@ -14,7 +14,7 @@
     <a title="EasyCrypt Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">EasyCrypt Docs</a> (7% documented)</p>
+        <p><a href="../index.html">EasyCrypt Docs</a> (57% documented)</p>
         <p class="header-right"><a href="https://github.com/lukszar/EasyCrypt"><img src="../img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -62,7 +62,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Main class of EasyCrypt framework for HMAC encryption.</p>
 
           </section>
           <section class="section task-group-section">
@@ -81,7 +81,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Use initializer of EasyCrypt instance to create encryptor.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">crypt</span> <span class="o">=</span> <span class="kt">EasyCrypt</span><span class="p">(</span><span class="nv">secret</span><span class="p">:</span> <span class="s">"myKey"</span><span class="p">,</span> <span class="nv">algorithm</span><span class="p">:</span> <span class="o">.</span><span class="n">md5</span><span class="p">)</span>
+</code></pre>
 
                       </div>
                       <div class="declaration">
@@ -91,6 +94,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">secret</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="nv">algorithm</span><span class="p">:</span> <span class="kt">EasyCrypt</span><span class="o">.</span><span class="kt"><a href="../Classes/EasyCrypt/Algorithm.html">Algorithm</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>secret</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>secret key used to encrypt message</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>algorithm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>algorithm used to message encryption</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -108,7 +142,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Method creates output encrypted string</p>
 
                       </div>
                       <div class="declaration">
@@ -118,6 +152,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">hash</span><span class="p">(</span><span class="n">_</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>text</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>message to encrypt</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Base64 string of encrypted message</p>
                       </div>
                     </section>
                   </div>
@@ -139,7 +196,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Enum types of algorithms you can choose during encryption.</p>
 
                         <a href="../Classes/EasyCrypt/Algorithm.html" class="slightly-smaller">See more</a>
                       </div>
