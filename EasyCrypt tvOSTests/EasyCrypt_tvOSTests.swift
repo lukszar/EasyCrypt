@@ -6,9 +6,9 @@
 //
 
 import XCTest
-@testable import EasyCrypt_tvOS
+@testable import EasyCrypt
 
-class EasyCrypt_tvOSTests: XCTestCase {
+class EasyCryptTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

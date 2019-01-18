@@ -1,0 +1,113 @@
+BCSymbolMap Version: 2.0
+_$S9EasyCryptAAC9AlgorithmOSQAASQ2eeoiySbx_xtFZTW
+_$S9EasyCryptAAC9AlgorithmOSHAASH9hashValueSivgTW
+_$S9EasyCryptAAC9AlgorithmOSHAASH4hash4intoys6HasherVz_tFTW
+_$S9EasyCryptAAC6secret9algorithmABSS_AB9AlgorithmOtcfcfA_
+_$S9EasyCryptAAC9AlgorithmOSHAAWI
+___swift_memcpy1_1
+___swift_noop_void_return
+_$S9EasyCryptAAC9AlgorithmOwet
+_$S9EasyCryptAAC9AlgorithmOwst
+_$S9EasyCryptAAC9AlgorithmOwxs
+_$S9EasyCryptAAC9AlgorithmOwxg
+_$S9EasyCryptAAC9AlgorithmOwug
+_$S9EasyCryptAAC9AlgorithmOwup
+_$S9EasyCryptAAC9AlgorithmOwui
+_$S9EasyCryptAAC9AlgorithmOSQAAWp
+_$S9EasyCryptAAC9AlgorithmOSQAAWG
+_$S9EasyCryptAAC9AlgorithmOSQAAWr
+_$S9EasyCryptAAC9AlgorithmOSHAAWp
+_$S9EasyCryptAAC9AlgorithmOSHAAWG
+_$S9EasyCryptAAC9AlgorithmOADSQAAWL
+_$S9EasyCryptAAC9AlgorithmOSHAAWr
+_$S9EasyCryptAAC9AlgorithmOWV
+_$S9EasyCryptAAC9AlgorithmOMf
+_symbolic ____ 9EasyCryptAAC9AlgorithmO
+_$S9EasyCryptAAC9AlgorithmOMF
+__swift_FORCE_LOAD_$_swiftFoundation_$_EasyCrypt
+__swift_FORCE_LOAD_$_swiftDarwin_$_EasyCrypt
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_EasyCrypt
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_EasyCrypt
+__swift_FORCE_LOAD_$_swiftDispatch_$_EasyCrypt
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_EasyCrypt
+___swift_reflection_version
+Apple LLVM version 10.0.0 (clang-1000.11.45.1)
+-emit-bc /Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift /Users/lszarkowicz/Programista/EasyCrypt/SharedCode/String+BytesArray.swift /Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt.swift /Users/lszarkowicz/Programista/EasyCrypt/SharedCode/Data+BytesArray.swift -emit-module-path "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt.swiftmodule" -emit-module-doc-path "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt.swiftdoc" -serialize-diagnostics-path "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt iOS-master.dia" -emit-objc-header-path "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt-Swift.h" -emit-dependencies-path "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt iOS-master.d" -target arm64-apple-ios12.1 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk -I "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/BuildProductsPath/Release-iphoneos" -F "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/BuildProductsPath/Release-iphoneos" -g -module-cache-path /Users/lszarkowicz/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4.2 -O -serialize-debugging-options -Xcc "-I/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/swift-overrides.hmap" -Xcc -iquote -Xcc "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/EasyCrypt-generated-files.hmap" -Xcc "-I/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/EasyCrypt-own-target-headers.hmap" -Xcc "-I/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/EasyCrypt-all-non-framework-target-headers.hmap" -Xcc -ivfsoverlay -Xcc "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/all-product-headers.yaml" -Xcc -iquote -Xcc "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/EasyCrypt-project-headers.hmap" -Xcc "-I/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/BuildProductsPath/Release-iphoneos/include" -Xcc "-I/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/DerivedSources/arm64" -Xcc "-I/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/DerivedSources" -Xcc -working-directory/Users/lszarkowicz/Programista/EasyCrypt -module-name EasyCrypt -num-threads 4 -o "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt+Algorithm.bc" -o "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/String+BytesArray.bc" -o "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/EasyCrypt.bc" -o "/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/Objects-normal/arm64/Data+BytesArray.bc" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/lszarkowicz/Programista/EasyCrypt
+Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)
+/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt+Algorithm.swift
+$S9EasyCryptAAC9AlgorithmOMa
+<compiler-generated>
+$S9EasyCryptAAC9AlgorithmOwui
+$S9EasyCryptAAC9AlgorithmOwup
+$S9EasyCryptAAC9AlgorithmOwug
+$S9EasyCryptAAC9AlgorithmOwxg
+$S9EasyCryptAAC9AlgorithmOwxs
+$S9EasyCryptAAC9AlgorithmOwst
+$S9EasyCryptAAC9AlgorithmOwet
+__swift_noop_void_return
+__swift_memcpy1_1
+$S9EasyCryptAAC9AlgorithmOSHAAWI
+$S9EasyCryptAAC9AlgorithmOADSQAAWl
+$S9EasyCryptAAC9AlgorithmOSQAAWa
+$S9EasyCryptAAC9AlgorithmOSHAAWa
+$S9EasyCryptAAC6secret9algorithmABSS_AB9AlgorithmOtcfcfA_
+EasyCrypt.swift
+/Users/lszarkowicz/Programista/EasyCrypt/SharedCode
+hash
+EasyCrypt+Algorithm.swift
+combine
+$SSiSHsSH4hash4intoys6HasherVz_tFTW
+hashValue.get
+_hashValue
+__derived_enum_equals
+_$SSS9EasyCryptE10bytesArraySayxGys27ExpressibleByIntegerLiteralRzlFs5UInt8V_Tg5
+_$S10Foundation4DataVSgWOe
+_$SSa15reserveCapacityyySiFs5UInt8V_Tg5
+_$SSa9repeating5countSayxGx_SitcfCs5UInt8V_Tg5Tf4nnd_n
+/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/String+BytesArray.swift
+bytesArray
+String+BytesArray.swift
+Data+BytesArray.swift
+init
+_$S9EasyCryptAAC7convert33_04D6DC5CC7F5573A27ACFCBE63D7F15ALLySays5UInt8VGSSF
+_$SSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZs5UInt8V_Tg5Tf4nd_n
+_$S9EasyCryptAAC9secretKey33_04D6DC5CC7F5573A27ACFCBE63D7F15ALLSays5UInt8VGvpWvd
+_$S9EasyCryptAAC9algorithm33_04D6DC5CC7F5573A27ACFCBE63D7F15ALLAB9AlgorithmOvpWvd
+_$S9EasyCryptMXM
+_$S9EasyCryptAACML
+_$S9EasyCryptAACMf
+_symbolic ____ 9EasyCryptAAC
+_symbolic Says5UInt8VG
+_symbolic ____9AlgorithmO 9EasyCryptAAC
+_$S9EasyCryptAACMF
+_$Ss23_ContiguousArrayStorageCys5UInt8VGML
+_objc_classes
+/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/EasyCrypt.swift
+$SSa22_allocateUninitializedySayxG_SpyxGtSiFZs5UInt8V_Tg5
+$SSa19_uninitializedCountSayxGSi_tcfCs5UInt8V_Tg5
+$SSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZs5UInt8V_Tg5
+$SSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZs5UInt8V_Tg5Tf4nd_n
+$Ss23_ContiguousArrayStorageCys5UInt8VGMa
+$SSa15reserveCapacityyySiFs5UInt8V_Tg5
+$Ss12_ArrayBufferV8endIndexSivgs5UInt8V_Tg5
+$Ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFs5UInt8V_Tg5
+$Ss22_ContiguousArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFs5UInt8V_Tg5
+$SSp10initialize4from5countySPyxG_SitFs5UInt8V_Tg5
+$Ss22_ContiguousArrayBufferVAByxGycfCs5UInt8V_Tg5
+$SSa9_getCountSiyFs5UInt8V_Tg5
+$Ss12_ArrayBufferV20isUniquelyReferencedSbyFs5UInt8V_Tg5
+deinit
+count.get
+convert
+cchmac.get
+digestLength.get
+$S9EasyCryptAACMa
+/Users/lszarkowicz/Programista/EasyCrypt/SharedCode/Data+BytesArray.swift
+$Ss22_ContiguousArrayBufferV5owneryXlvg
+$Ss22_ContiguousArrayBufferV5owneryXlvgTf4n_g
+$Ss15ContiguousArrayVyAByxGqd__c7ElementQyd__RszSTRd__lufC
+$Ss15ContiguousArrayVyAByxGqd__c7ElementQyd__Rszs8SequenceRd__lufCTf4gn_n
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/lszarkowicz/Library/Developer/Xcode/DerivedData/EasyCrypt-ffxkmnlkrckfwuflcefnwrsotlkl/Build/Intermediates.noindex/ArchiveIntermediates/EasyCrypt iOS/IntermediateBuildFilesPath/EasyCrypt.build/Release-iphoneos/EasyCrypt iOS.build/DerivedSources/EasyCrypt_vers.c

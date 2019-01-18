@@ -1,4 +1,0 @@
-framework module EasyCrypt {
-  header "EasyCrypt-Swift.h"
-  requires objc
-}

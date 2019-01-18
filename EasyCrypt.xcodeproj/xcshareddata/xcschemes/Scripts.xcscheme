@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37FE19D121F0C78100B76A3D"
-               BuildableName = "EasyCrypt.framework"
-               BlueprintName = "EasyCrypt iOS"
+               BlueprintIdentifier = "372C96CF21F11A0700F2BD6A"
+               BuildableName = "Scripts"
+               BlueprintName = "Scripts"
                ReferencedContainer = "container:EasyCrypt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37FE19DA21F0C78200B76A3D"
-               BuildableName = "EasyCrypt iOSTests.xctest"
-               BlueprintName = "EasyCrypt iOSTests"
-               ReferencedContainer = "container:EasyCrypt.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37FE19D121F0C78100B76A3D"
-            BuildableName = "EasyCrypt.framework"
-            BlueprintName = "EasyCrypt iOS"
-            ReferencedContainer = "container:EasyCrypt.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37FE19D121F0C78100B76A3D"
-            BuildableName = "EasyCrypt.framework"
-            BlueprintName = "EasyCrypt iOS"
+            BlueprintIdentifier = "372C96CF21F11A0700F2BD6A"
+            BuildableName = "Scripts"
+            BlueprintName = "Scripts"
             ReferencedContainer = "container:EasyCrypt.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37FE19D121F0C78100B76A3D"
-            BuildableName = "EasyCrypt.framework"
-            BlueprintName = "EasyCrypt iOS"
+            BlueprintIdentifier = "372C96CF21F11A0700F2BD6A"
+            BuildableName = "Scripts"
+            BlueprintName = "Scripts"
             ReferencedContainer = "container:EasyCrypt.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
